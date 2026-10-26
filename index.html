@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NEURO-X // Cyberpunk AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="grid-bg"></div>
+  <div class="scanline"></div>
+
+  <header class="navbar">
+    <div class="logo">NEURO<span>_X</span></div>
+    <div class="status"><span class="dot"></span> NEURAL LINK: ONLINE</div>
+  </header>
+
+  <main class="console-wrap">
+    <h1 class="glitch" data-text="AI CONSOLE">AI CONSOLE</h1>
+    <p class="subtitle">// Groq Neural Core v2.077</p>
+
+    <div class="console">
+      <div class="console-bar">
+        <span class="b r"></span><span class="b y"></span><span class="b g"></span>
+        <span class="title">neural_link.exe</span>
+      </div>
+
+      <div class="chat" id="chat">
+        <div class="msg ai">> Sistem aktif. Kirim pesanmu, netrunner...</div>
+      </div>
+
+      <div class="input-row">
+        <span class="prompt">&gt;</span>
+        <textarea id="input" rows="1" placeholder="Ketik pesan... (Enter kirim, Shift+Enter baris baru)"></textarea>
+        <button id="send">KIRIM ⚡</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
